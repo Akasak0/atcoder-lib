@@ -1,4 +1,9 @@
 // Library : https://github.com/Akasak0/atcoder-lib //
+// Reference : //
+// - algo-method : https://algo-method.com
+// - apg4b : https://atcoder.jp/contests/APG4b
+// - atcoder admin (ABC464) : https://www.youtube.com/live/xccJ5hiizzY
+// 
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;
