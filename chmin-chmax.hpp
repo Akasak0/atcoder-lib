@@ -1,7 +1,6 @@
 // chmin //
-template <typename T>
-bool chmin(T &a, const T& b) {
-    if(a > b) {
+template<class T> inline bool chmin(T& a, T b) {
+    if (a > b) {
         a = b;
         return true;
     }
@@ -9,9 +8,8 @@ bool chmin(T &a, const T& b) {
 }
 
 // chmax //
-template <typename T>
-bool chmax(T &a, const T& b) {
-    if(a < b) {
+template<class T> inline bool chmax(T& a, T b) {
+    if (a < b) {
         a = b;
         return true;
     }
